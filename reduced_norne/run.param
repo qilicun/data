@@ -1,0 +1,9 @@
+deck_filename=NORNE_OPM.DATA
+output_dir=lrat_output
+pvt_tab_size=-1
+sat_tab_size=-1
+threephase_model=gwseg
+drs_max_rel=0.2
+dp_max_rel=0.2
+ds_max=0.05
+use_cpr=true

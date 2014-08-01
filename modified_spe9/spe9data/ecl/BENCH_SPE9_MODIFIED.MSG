@@ -1,0 +1,480 @@
+<eclipse>
+<message date="1/1/1990" time="0.00000000000000">
+ CHECKING FOR LICENSES                                                   
+</message>
+<message date="1/1/1990" time="0.00000000000000">
+ THE MEMORY REQUIRED TO PROCESS THE GRID SECTION IS                      
+       3482 KBYTES                                                       
+</message>
+<message date="1/1/1990" time="0.00000000000000">
+ NEITHER OLDTRAN,OLDTRANR NOR NEWTRAN SPECIFIED                          
+ TRANSMISSIBILITIES TO BE CALCULATED                                     
+ USING  NEWTRAN                                                          
+</message>
+<message date="1/1/1990" time="0.00000000000000">
+ NO FAULT NON-NEIGHBOUR TRANSMISSIBILITIES                               
+ AS NONNC IS SPECIFIED IN RUNSPEC.                                       
+</message>
+<message date="1/1/1990" time="0.00000000000000">
+ NUMBER OF ACTIVE CELLS IS 9000                                          
+</message>
+<message date="1/1/1990" time="0.00000000000000">
+ THE MEMORY REQUIRED TO PROCESS THE SOLUTION SECTION IS                  
+      12289 KBYTES                                                       
+</message>
+<message date="1/1/1990" time="0.00000000000000">
+    62370 CHARACTER VARIABLES USED                                       
+</message>
+<warning date="1/1/1990" time="0.00000000000000">
+ SPURIOUS DATA BEFORE WGPR     KEYWORD                                   
+   'PROD02'   'PROD03'   'PROD04'   'PROD05'   'PROD06'  'PROD07'        
+   'PROD08'   'PROD09'   'PROD10'  'PROD11'  'PROD12' 'PROD13'           
+   'PROD14'  'PROD15'  'PROD16'  'PROD17'  'PROD18' 'PROD19'             
+   'PROD20'  'PROD21'  'PROD22'  'PROD23'  'PROD24' 'PROD25'             
+   'PROD26' /                                                            
+</warning>
+<warning date="1/1/1990" time="0.00000000000000">
+ SPURIOUS DATA BEFORE FOPR     KEYWORD                                   
+   'PROD02'   'PROD03'   'PROD04'   'PROD05'   'PROD06'  'PROD07'        
+   'PROD08'   'PROD09'   'PROD10'  'PROD11'  'PROD12' 'PROD13'           
+   'PROD14'  'PROD15'  'PROD16'  'PROD17'  'PROD18' 'PROD19'             
+   'PROD20'  'PROD21'  'PROD22'  'PROD23'  'PROD24' 'PROD25'             
+   'PROD26' /                                                            
+</warning>
+<warning date="1/1/1990" time="0.00000000000000">
+ SPURIOUS DATA BEFORE GOPR     KEYWORD                                   
+ /                                                                       
+</warning>
+<warning date="1/1/1990" time="0.00000000000000">
+ WELL INJE1    HAS A BOTTOM HOLE REFERENCE                               
+ DEPTH OF   9110.0   FEET                                                
+ THE CENTRE DEPTHS OF THE CONNECTING GRID BLOCKS LIE                     
+ BETWEEN  10378.2 AND  10525.7   FEET                                    
+</warning>
+<warning date="1/1/1990" time="0.00000000000000">
+ WELL PROD9    HAS A BOTTOM HOLE REFERENCE                               
+ DEPTH OF   9110.0   FEET                                                
+ THE CENTRE DEPTHS OF THE CONNECTING GRID BLOCKS LIE                     
+ BETWEEN   9715.2 AND   9756.2   FEET                                    
+</warning>
+<warning date="1/1/1990" time="0.00000000000000">
+ WELL PROD16   HAS A BOTTOM HOLE REFERENCE                               
+ DEPTH OF   9110.0   FEET                                                
+ THE CENTRE DEPTHS OF THE CONNECTING GRID BLOCKS LIE                     
+ BETWEEN   9662.3 AND   9703.3   FEET                                    
+</warning>
+<warning date="1/1/1990" time="0.00000000000000">
+ WELL PROD17   HAS A BOTTOM HOLE REFERENCE                               
+ DEPTH OF   9110.0   FEET                                                
+ THE CENTRE DEPTHS OF THE CONNECTING GRID BLOCKS LIE                     
+ BETWEEN   9768.1 AND   9809.1   FEET                                    
+</warning>
+<warning date="1/1/1990" time="0.00000000000000">
+ WELL PROD23   HAS A BOTTOM HOLE REFERENCE                               
+ DEPTH OF   9110.0   FEET                                                
+ THE CENTRE DEPTHS OF THE CONNECTING GRID BLOCKS LIE                     
+ BETWEEN   9768.1 AND   9809.1   FEET                                    
+</warning>
+<warning date="1/1/1990" time="0.00000000000000">
+ WELL PROD26   HAS A BOTTOM HOLE REFERENCE                               
+ DEPTH OF   9110.0   FEET                                                
+ THE CENTRE DEPTHS OF THE CONNECTING GRID BLOCKS LIE                     
+ BETWEEN   9873.9 AND   9914.9   FEET                                    
+</warning>
+<message date="1/1/1990" time="0.00000000000000">
+ DRSDT KEYWORD HAS NOT BEEN ENTERED, SO THE                              
+ MAXIMUM GAS RE-SOLUTION RATE IS DEFAULTED TO INFINITY.                  
+</message>
+<message date="1/1/1990" time="0.00000000000000">
+ RESTART FILE WRITTEN   REPORT     0                                     
+</message>
+<message date="1/1/1990" time="0.00000000000000">
+ ******************************************                              
+ * WELL INJE1    HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME      0.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="1/1/1990" time="0.00000000000000">
+ ******************************************                              
+ * WELL PROD26   HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME      0.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="2/1/1990" time="1.00000000000000">
+ RESTART FILE WRITTEN   REPORT     1                                     
+</message>
+<message date="2/1/1990" time="1.00000000000000">
+ ******************************************                              
+ * WELL PROD21   HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME      1.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="3/1/1990" time="2.00000000000000">
+ RESTART FILE WRITTEN   REPORT     2                                     
+</message>
+<message date="3/1/1990" time="2.00000000000000">
+ ******************************************                              
+ * WELL PROD23   HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME      2.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="5/1/1990" time="4.00000000000000">
+ RESTART FILE WRITTEN   REPORT     3                                     
+</message>
+<message date="9/1/1990" time="8.00000000000000">
+ RESTART FILE WRITTEN   REPORT     4                                     
+</message>
+<message date="17/1/1990" time="16.00000000000000">
+ RESTART FILE WRITTEN   REPORT     5                                     
+</message>
+<message date="29/1/1990" time="28.00000000000000">
+ RESTART FILE WRITTEN   REPORT     6                                     
+</message>
+<message date="10/2/1990" time="40.00000000000000">
+ RESTART FILE WRITTEN   REPORT     7                                     
+</message>
+<message date="2/3/1990" time="60.00000000000000">
+ RESTART FILE WRITTEN   REPORT     8                                     
+</message>
+<message date="2/3/1990" time="60.00000000000000">
+ ******************************************                              
+ * WELL PROD9    HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME     60.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="22/3/1990" time="80.00000000000000">
+ RESTART FILE WRITTEN   REPORT     9                                     
+</message>
+<message date="11/4/1990" time="100.00000000000000">
+ RESTART FILE WRITTEN   REPORT    10                                     
+</message>
+<message date="11/4/1990" time="100.00000000000000">
+ ******************************************                              
+ * WELL PROD16   HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    100.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="26/4/1990" time="115.00000000000000">
+ RESTART FILE WRITTEN   REPORT    11                                     
+</message>
+<message date="26/4/1990" time="115.00000000000000">
+ ******************************************                              
+ * WELL PROD22   HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    115.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="21/5/1990" time="140.00000000000000">
+ RESTART FILE WRITTEN   REPORT    12                                     
+</message>
+<message date="20/6/1990" time="170.00000000000000">
+ RESTART FILE WRITTEN   REPORT    13                                     
+</message>
+<message date="20/6/1990" time="170.00000000000000">
+ ******************************************                              
+ * WELL PROD6    HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    170.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="20/6/1990" time="170.00000000000000">
+ ******************************************                              
+ * WELL PROD11   HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    170.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="20/6/1990" time="170.00000000000000">
+ ******************************************                              
+ * WELL PROD12   HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    170.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="20/7/1990" time="200.00000000000000">
+ RESTART FILE WRITTEN   REPORT    14                                     
+</message>
+<message date="20/7/1990" time="200.00000000000000">
+ ******************************************                              
+ * WELL PROD2    HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    200.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="20/7/1990" time="200.00000000000000">
+ ******************************************                              
+ * WELL PROD3    HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    200.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="20/7/1990" time="200.00000000000000">
+ ******************************************                              
+ * WELL PROD20   HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    200.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="8/9/1990" time="250.00000000000000">
+ RESTART FILE WRITTEN   REPORT    15                                     
+</message>
+<message date="28/10/1990" time="300.00000000000000">
+ RESTART FILE WRITTEN   REPORT    16                                     
+</message>
+<message date="28/10/1990" time="300.00000000000000">
+ ******************************************                              
+ * WELL INJE1    HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    300.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="17/11/1990" time="320.00000000000000">
+ RESTART FILE WRITTEN   REPORT    17                                     
+</message>
+<warning date="17/11/1990" time="320.00000000000000">
+ LINEAR EQUATIONS NOT FULLY CONVERGED - RUN MAY GO FASTER                
+ IF YOU INCREASE LITMAX (= 15 - TUNING KEYWORD)                          
+</warning>
+<message date="7/12/1990" time="340.00000000000000">
+ RESTART FILE WRITTEN   REPORT    18                                     
+</message>
+<warning date="7/12/1990" time="340.00000000000000">
+ LINEAR EQUATIONS NOT FULLY CONVERGED - RUN MAY GO FASTER                
+ IF YOU INCREASE LITMAX (= 15 - TUNING KEYWORD)                          
+</warning>
+<message date="27/12/1990" time="360.00000000000000">
+ RESTART FILE WRITTEN   REPORT    19                                     
+</message>
+<message date="27/12/1990" time="360.00000000000000">
+ ******************************************                              
+ * WELL INJE1    HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    360.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="27/12/1990" time="360.00000000000000">
+ ******************************************                              
+ * WELL PROD9    HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    360.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="27/12/1990" time="360.00000000000000">
+ ******************************************                              
+ * WELL PROD11   HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    360.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="27/12/1990" time="360.00000000000000">
+ ******************************************                              
+ * WELL PROD12   HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    360.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="27/12/1990" time="360.00000000000000">
+ ******************************************                              
+ * WELL PROD16   HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    360.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="27/12/1990" time="360.00000000000000">
+ ******************************************                              
+ * WELL PROD20   HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    360.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="27/12/1990" time="360.00000000000000">
+ ******************************************                              
+ * WELL PROD21   HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    360.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="27/12/1990" time="360.00000000000000">
+ ******************************************                              
+ * WELL PROD22   HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    360.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="27/12/1990" time="360.00000000000000">
+ ******************************************                              
+ * WELL PROD23   HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    360.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="27/12/1990" time="360.00000000000000">
+ ******************************************                              
+ * WELL PROD26   HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    360.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="1/1/1991" time="365.00000000000000">
+ RESTART FILE WRITTEN   REPORT    20                                     
+</message>
+<message date="1/1/1991" time="365.00000000000000">
+ ******************************************                              
+ * WELL PROD2    HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    365.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="1/1/1991" time="365.00000000000000">
+ ******************************************                              
+ * WELL PROD6    HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    365.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="6/1/1991" time="370.00000000000000">
+ RESTART FILE WRITTEN   REPORT    21                                     
+</message>
+<message date="11/1/1991" time="375.00000000000000">
+ RESTART FILE WRITTEN   REPORT    22                                     
+</message>
+<message date="11/1/1991" time="375.00000000000000">
+ ******************************************                              
+ * WELL PROD3    HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    375.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="21/1/1991" time="385.00000000000000">
+ RESTART FILE WRITTEN   REPORT    23                                     
+</message>
+<message date="5/2/1991" time="400.00000000000000">
+ RESTART FILE WRITTEN   REPORT    24                                     
+</message>
+<message date="25/2/1991" time="420.00000000000000">
+ RESTART FILE WRITTEN   REPORT    25                                     
+</message>
+<message date="25/2/1991" time="420.00000000000000">
+ ******************************************                              
+ * WELL PROD5    HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    420.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="25/2/1991" time="420.00000000000000">
+ ******************************************                              
+ * WELL PROD7    HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    420.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="25/2/1991" time="420.00000000000000">
+ ******************************************                              
+ * WELL PROD13   HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    420.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="25/2/1991" time="420.00000000000000">
+ ******************************************                              
+ * WELL PROD17   HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    420.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="25/2/1991" time="420.00000000000000">
+ ******************************************                              
+ * WELL PROD25   HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    420.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="27/3/1991" time="450.00000000000000">
+ RESTART FILE WRITTEN   REPORT    26                                     
+</message>
+<message date="26/4/1991" time="480.00000000000000">
+ RESTART FILE WRITTEN   REPORT    27                                     
+</message>
+<message date="26/4/1991" time="480.00000000000000">
+ ******************************************                              
+ * WELL PROD15   HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    480.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="26/4/1991" time="480.00000000000000">
+ ******************************************                              
+ * WELL PROD19   HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    480.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="26/5/1991" time="510.00000000000000">
+ RESTART FILE WRITTEN   REPORT    28                                     
+</message>
+<message date="26/5/1991" time="510.00000000000000">
+ ******************************************                              
+ * WELL PROD18   HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    510.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="25/6/1991" time="540.00000000000000">
+ RESTART FILE WRITTEN   REPORT    29                                     
+</message>
+<message date="25/6/1991" time="540.00000000000000">
+ ******************************************                              
+ * WELL PROD10   HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    540.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="24/8/1991" time="600.00000000000000">
+ RESTART FILE WRITTEN   REPORT    30                                     
+</message>
+<message date="24/8/1991" time="600.00000000000000">
+ ******************************************                              
+ * WELL PROD4    HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    600.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="24/8/1991" time="600.00000000000000">
+ ******************************************                              
+ * WELL PROD8    HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    600.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="23/10/1991" time="660.00000000000000">
+ RESTART FILE WRITTEN   REPORT    31                                     
+</message>
+<message date="22/12/1991" time="720.00000000000000">
+ RESTART FILE WRITTEN   REPORT    32                                     
+</message>
+<message date="5/2/1992" time="765.00000000000000">
+ RESTART FILE WRITTEN   REPORT    33                                     
+</message>
+<message date="21/3/1992" time="810.00000000000000">
+ RESTART FILE WRITTEN   REPORT    34                                     
+</message>
+<message date="21/3/1992" time="810.00000000000000">
+ ******************************************                              
+ * WELL PROD24   HAS CHANGED TO           *                              
+ * CONTROL BY BOTTOM HOLE PRESSURE        *                              
+ * FROM TIME    810.00   DAYS  .          *                              
+ ******************************************                              
+</message>
+<message date="5/5/1992" time="855.00000000000000">
+ RESTART FILE WRITTEN   REPORT    35                                     
+</message>
+<message date="19/6/1992" time="900.00000000000000">
+ RESTART FILE WRITTEN   REPORT    36                                     
+</message>
+</eclipse>

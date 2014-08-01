@@ -1,0 +1,280 @@
+-- Norne full field model for SPE ATW 2013
+RUNSPEC
+
+DIMENS
+46 112 22   /
+
+GRIDOPTS
+ 'YES' 0 /
+
+OIL
+
+WATER
+
+GAS
+
+DISGAS
+
+VAPOIL
+
+METRIC
+
+START
+ 06  'NOV' 1997 /
+
+EQLDIMS
+ 5  100  20 /
+
+WELLDIMS
+ 1  22  1  /
+
+TABDIMS
+--ntsfun ntpvt nssfun nppvt ntfip nrpvt ntendp
+   1     1     33     60   16    60 /
+
+FAULTDIM
+10000 /
+
+PIMTDIMS
+1  51 /
+
+NSTACK
+ 30 /
+
+UNIFIN
+UNIFOUT
+
+OPTIONS
+77* 1 /
+
+---------------------------------------------------------
+--
+--	Input of grid geometry
+--
+---------------------------------------------------------
+GRID
+
+NEWTRAN
+
+GRIDFILE
+  2  /
+
+GRIDUNIT
+METRES  /
+
+INIT
+
+MESSAGES
+ 8*10000  20000 10000 1000 1* /
+
+PINCH
+ 0.001 GAP  1* TOPBOT TOP/
+
+NOECHO
+
+--------------------------------------------------------
+--
+--  	Grid and faults
+--
+--------------------------------------------------------
+--INCLUDE 
+-- 'norne_singleblock_modified.grdecl' /
+
+-- Simulation grid, with slooping faults:
+-- file in UTM coordinate system, for importing to DecisionSpace
+INCLUDE
+ './INCLUDE/GRID/IRAP_1005.GRDECL' / 
+
+INCLUDE
+ './INCLUDE/GRID/ACTNUM_0704.prop' / 
+
+-- Faults
+INCLUDE
+ './INCLUDE/FAULT/FAULT_JUN_05.INC' / 
+
+-- Alteration of transmiscibility by use of the 'MULTFLT' keyword
+INCLUDE
+ './INCLUDE/FAULT/FAULTMULT_AUG-2006.INC' / 
+
+--------------------------------------------------------
+--
+--  	Input of grid parametres
+--
+--------------------------------------------------------
+
+--
+INCLUDE
+ './INCLUDE/PETRO/PORO_0704.prop' / 
+
+--INCLUDE
+-- './INCLUDE/PETRO/NTG_0704.prop' / 
+
+INCLUDE
+ './INCLUDE/PETRO/PERM_0704.prop' / 
+
+PERMY
+    113344*10.0 /
+PERMZ
+    113344*1.0 /
+
+--INCLUDE
+-- './INCLUDE/PETRO/PERMY.inc' / 
+
+--INCLUDE
+--'./INCLUDE/PETRO/PERMZ.inc' / 
+--COPY
+--   PERMX PERMY /
+--   PERMX PERMZ /
+--/
+
+-- based on same kv/kh factor
+--MULTIPLY
+--   'PERMZ' 0.2    1 46 1 112  1  1 /    Garn 3
+--   'PERMZ' 0.04   1 46 1 112  2  2 /    Garn 2
+--   'PERMZ' 0.25   1 46 1 112  3  3 /    Garn 1
+--   'PERMZ' 0.0    1 46 1 112  4  4 /    Not 	(inactive anyway)
+--   'PERMZ' 0.13   1 46 1 112  5  5 /    Ile 2.2
+--   'PERMZ' 0.13   1 46 1 112  6  6 /    Ile 2.1.3
+--   'PERMZ' 0.13   1 46 1 112  7  7 /    Ile 2.1.2
+--   'PERMZ' 0.13   1 46 1 112  8  8 /    Ile 2.1.1
+--   'PERMZ' 0.09   1 46 1 112  9  9 /    Ile 1.3
+--   'PERMZ' 0.07   1 46 1 112 10 10 /    Ile 1.2
+--   'PERMZ' 0.19   1 46 1 112 11 11 /    Ile 1.1
+--   'PERMZ' 0.13   1 46 1 112 12 12 /    Tofte 2.2
+--   'PERMZ' 0.64   1 46 1 112 13 13 /	Tofte 2.1.3
+--   'PERMZ' 0.64   1 46 1 112 14 14 /	Tofte 2.1.2
+--   'PERMZ' 0.64   1 46 1 112 15 15 /	Tofte 2.1.1
+--   'PERMZ' 0.64   1 46 1 112 16 16 /	Tofte 1.2.2
+--   'PERMZ' 0.64   1 46 1 112 17 17 /	Tofte 1.2.1
+--   'PERMZ' 0.016  1 46 1 112 18 18 /	Tofte 1.1
+--   'PERMZ' 0.004  1 46 1 112 19 19 /	Tilje 4
+--   'PERMZ' 0.004  1 46 1 112 20 20 /	Tilje 3
+--   'PERMZ' 1.0    1 46 1 112 21 21 /	Tilje 2
+--   'PERMZ' 1.0    1 46 1 112 22 22 /	Tilje 1
+--/
+
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+  
+PROPS
+--------------------------------------------------------------------------------
+--
+--    Input of fluid properties and relative permeability
+--
+---------------------------------------------------------
+
+NOECHO
+
+INCLUDE
+'./INCLUDE/PVT/PVT-WET-GAS.INC' / 
+
+-- relative perm.
+INCLUDE
+'./INCLUDE/RELPERM/SCAL_NORNE.INC' /
+
+--RPTPROPS
+--1 1 1 5*0 0 /
+--------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------
+SOLUTION
+
+RPTRST
+BASIC=2 KRO KRW KRG /
+
+RPTSOL
+FIP=3  SWAT /
+
+PRESSURE
+113344*270 /
+SWAT
+113344*0.3 /
+SGAS
+113344*0.2 /
+RS
+113344*120 /
+RV
+113344*0.00005 /
+
+--INCLUDE
+--    'INCLUDE/PRESSURE.grdecl' /
+--INCLUDE
+--    'INCLUDE/SWAT.grdecl' /
+--INCLUDE
+--    'INCLUDE/SGAS.grdecl' /
+--INCLUDE
+--    'INCLUDE/RS.grdecl' /
+--INCLUDE
+--    'INCLUDE/RV.grdecl' /
+---------------------------------------------------------------------------------
+-- equilibrium data: do not include this file in case of RESTART
+
+--INCLUDE
+-- './INCLUDE/PETRO/E3.prop' / 
+--INCLUDE
+-- './INCLUDE/PETRO/EQLNUM_0704.prop' / 
+-------------------------------------------------------------------------------
+
+SUMMARY
+
+
+--
+INCLUDE
+ './INCLUDE/SUMMARY/summary.data' / 
+
+--
+--INCLUDE
+-- './INCLUDE/SUMMARY/extra.inc' / 
+
+--
+--INCLUDE
+-- './INCLUDE/SUMMARY/tracer.data' / 
+--
+--INCLUDE
+-- './INCLUDE/SUMMARY/gas.inc' / 
+
+--
+--INCLUDE
+-- './INCLUDE/SUMMARY/wpave.inc' / 
+
+--------------------------------------------------------------------------------
+
+
+SCHEDULE
+
+
+--INCLUDE 
+--	'INCLUDE/WELL_IO_SMALLSTEPS.DATA'
+--/
+--DRSDT
+-- 0  /
+
+NOECHO
+
+WELSPECS 
+     'B-2H'  'B1-DUMMY'   8   26  1*       'OIL'  7* /
+/
+COMPDAT 
+-- WELL     I    J    K1  K2	   Sat.        CF       DIAM        KH SKIN ND        DIR   Ro 
+   'B-2H'   8   26   1   1      'OPEN'  1*     13.200   0.216    991.575    2*         'Z'   6.044 /
+/
+WCONPROD
+   'B-2H'   'OPEN'     'LRAT'  3* 0.0  2* /
+/
+
+TSTEP
+1 
+2 3 4
+5 5
+10
+10
+3*20
+/
+--8*25
+--34*50
+--20*100.0
+--60*100.0
+--/
+
