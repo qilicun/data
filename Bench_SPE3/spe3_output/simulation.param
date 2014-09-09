@@ -1,5 +1,0 @@
-/deck_filename=BENCH_SPE3.DATA
-/linsolver=umfpack
-/linsolver_type=2
-/output_dir=spe3_output
-/threephase_model=gwseg
